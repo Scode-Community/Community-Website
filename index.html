@@ -1,46 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    Project: 1 - Community Website
+    Version: 1.2.nr
+    Website Status: Not Responsive
+    Buttons: Some are not working due to lack of pages/div (Work in Progress)
+    UI/UX: Kinda Clean?
+-->
 
 <head>
+    <!--All External Files Needed are Included here in Head-->
     <meta charset="utf-8">
+    <!--Missing: Icon-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCode Community +</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="Resources/devsinfo.ico">
     <script src="https://kit.fontawesome.com/687fc4155e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="Resources/script.js"></script>
-    </header>
+    <script src="script.js"></script>
+</head>
+<!--Start Of Website-->
 
-    <body>
-        <Header>
-            <nav>
-                <div class="logo">
-                    <img src="Resources/logotop.png" alt="SCode Communtiy +" class="icon">
-                </div>
-                <div class="links">
-                    <ul class="bar">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Community Plans</a></li>
-                    </ul>
-                </div>
-                <div class="discordbtn">
-                    <ul class="discord">
-                        <button><a href="https://discord.gg/jvHWWeKMWR">Join our Discord!</a></button>
-                    </ul>
-                </div>
-            </nav>
-        </Header>
+<body>
+    <!--Header needs work: Needs to be on Top all the time-->
+    <Header>
+        <nav>
+            <div class="logo">
+                <img src="Resources/logotop.png" alt="SCode Communtiy +" class="icon">
+            </div>
+            <!--bar needs alignment-->
+            <div class="links">
+                <ul class="bar">
+                    <!--instead of opening a new page this will now scroll down to a specific Div-->
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Community Plans</a></li>
+                </ul>
+            </div>
+            <div class="discordbtn">
+                <ul class="discord">
+                    <button><a href="https://discord.gg/jvHWWeKMWR">Join our Discord!</a></button>
+                </ul>
+            </div>
+        </nav>
+    </Header>
+    <div class="bg"></div>
+    <div id="Home" class="home">
         <div class="scodebanner">
             <img src="Resources/logo.png" alt="hatdog" class="banner">
         </div>
         <div class="arrdown">
             <img src="Resources/arrow down.png" alt="downnn">
         </div>
-        <footer>
-            <div class="footerlyr1">
+    </div>
+    <!--Footer still not Finished but is now visible-->
+    <footer>
+        <div class="footerlyr1">
+            <div class="bottomstuff">
 
             </div>
-        </footer>
-    </body>
+        </div>
+    </footer>
+    <!--Do not remove this as it might break the function of button scroll-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+<!--End Of Website-->
+
+</html>

@@ -35,6 +35,11 @@ body::-webkit-scrollbar-thumb {
     background-color: #ffe27f;
 }
 
+Header {
+    position: sticky;
+    top: 0;
+}
+
 nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -108,7 +113,7 @@ button:hover {
 
 .footerlyr1 {
     padding: 2rem 0;
-    /*background-color: #36374e;*/
+    background-color: #36374e;
     height: 400px;
 }
 
@@ -146,4 +151,21 @@ button:hover {
     overflow: auto;
     height: fit-content;
     width: fit-content;
+}
+
+.bg {
+    background-color: #2225397c;
+    position: static;
+    max-width: auto;
+    height: 300vh;
+}
+
+
+/*Issue: makes footer look weird*/
+
+.bottomstuff {
+    background-color: #222539;
+    width: auto;
+    height: 20%;
+    margin-top: 20%;
 }

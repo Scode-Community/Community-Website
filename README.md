@@ -1,8 +1,7 @@
 # Community-Website
 Project 1 - The start of a new Chapter!
 
-Plan: 
-
+### Plan: 
 ### [FINISHED]
 
 ![SCC Reference Design 2](https://user-images.githubusercontent.com/51787264/176242932-3eb18ca5-be32-4587-ad83-e7b01722f529.png) 

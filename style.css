@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("Resources/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.offset::before {
+    display: block;
+    content: "";
+    height: 2rem;
+    margin-top: -2rem;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(39, 39, 39);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ffe27f;
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    display: flex;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.493);
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36374e;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.links {
+    display: inline-block;
+    align-items: center;
+    left: 50%;
+    right: 50%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bar {
+    list-style: none;
+}
+
+.bar li,
+.discordbtn,
+button {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.discord {
+    list-style: none;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: fit-content;
+    height: 50px;
+    padding: 0 25px;
+    background-color: #222539;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #313247;
+}
+
+.footerlyr1 {
+    padding: 2rem 0;
+    /*background-color: #36374e;*/
+    height: 400px;
+}
+
+.scodebanner {
+    position: absolute;
+    /*Can also be `fixed`*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+.banner {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.arrdown {
+    position: absolute;
+    /*Can also be `fixed`*/
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    height: fit-content;
+    width: fit-content;
+}

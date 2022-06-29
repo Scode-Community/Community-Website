@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;600&display=swap');
+
+
+/* use variables on root to globalize customizations */
+:root{
+    --raleway: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../Resources/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--raleway)
+}
+
+.offset::before {
+    display: block;
+    content: "";
+    height: 2rem;
+    margin-top: -2rem;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(39, 39, 39);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ffe27f;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.25rem;
+    display: flex;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.493);
+    justify-content: space-around;
+    align-items: center;
+    background-color: #36374e;
+    height: 5.625rem;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bar {
+    list-style: none;
+    position: relative;
+    left: 20%;
+    right: 50%;
+}
+
+.bar li,
+button {
+    display: inline-block;
+    padding: 0px 1.25rem;
+}
+
+
+.discordbtn a{ 
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 1rem;
+    background-color: #222539;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.discordbtn a:hover {
+    background-color: #313247;
+}
+
+.footerlyr1 {
+    padding: 2rem 0;
+    background-color: #36374e;
+    height: 400px;
+}
+
+.home {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.scodebanner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+.banner {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.arrdown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+.bg {
+    background-color: #2225397c;
+    position: static;
+    max-width: auto;
+    height: 300vh;
+    top: 0;
+}
+
+
+/*Issue: makes footer look weird*/
+
+.bottomstuff {
+    background-color: #222539;
+    width: auto;
+    height: 20%;
+    margin-top: 20%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.hometop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.PPTOS,
+.copyright {
+    padding: 0 2%;
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff3dc;
+}
+
+.copyright {
+    display: inline-block;
+}
+
+.PPTOS li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+}

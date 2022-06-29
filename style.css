@@ -83,6 +83,8 @@ a {
     list-style: none;
     position: relative;
     left: -25%;
+    right: 25%;
+    padding: 15px 2%;
 }
 
 .bar li,

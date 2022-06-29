@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -35,12 +36,11 @@ body::-webkit-scrollbar-thumb {
     background-color: #ffe27f;
 }
 
-.navbar {
+.container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 20px;
     display: flex;
@@ -50,13 +50,21 @@ body::-webkit-scrollbar-thumb {
     background-color: #36374e;
     height: 90px;
     display: flex;
-    align-items: center;
     padding: 10px 2%;
     z-index: 999;
 }
 
+.navbar {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
 .logo {
     display: inline-block;
+    cursor: pointer;
 }
 
 .icon {
@@ -70,10 +78,11 @@ a {
 }
 
 .bar {
+    flex: 1;
+    text-align: right;
     list-style: none;
     position: relative;
-    left: 20%;
-    right: 50%;
+    left: -25%;
 }
 
 .bar li,
@@ -86,8 +95,13 @@ button {
     list-style: none;
 }
 
+.navibtn {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
 button {
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 20px;
     width: fit-content;
@@ -186,7 +200,6 @@ button:hover {
 .PPTOS,
 .copyright {
     padding: 0 2%;
-    font-family: 'Raleway', sans-serif;
     font-weight: 200;
     font-size: 12px;
     color: #fff3dc;
@@ -200,4 +213,49 @@ button:hover {
     display: inline-block;
     padding: 0px 20px;
     list-style: none;
+}
+
+@media only screen and (max-width:700px) {
+    /*Navigation Bar*/
+    .btn {
+        display: none;
+    }
+    .bar {
+        overflow: auto;
+        background-color: #222539;
+        width: 100%;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        z-index: 2;
+    }
+    .bar li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navibtn {
+        display: block;
+        width: 25px;
+    }
+    #menulist {
+        overflow: hidden;
+        transition: 0.3s;
+    }
+    /*Logo*/
+    .dwn {
+        width: 140px;
+    }
+    .banner {
+        width: 300px;
+    }
+    /*Footer*/
+    .bottomstuff {
+        width: auto;
+        height: 20%;
+        margin-top: 100%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <!--
     Project: 1 - Community Website
-    Version: 1.6.nr
+    Version: 1.7.sr
     Website Status: Not Responsive
     Buttons: Some are not working due to lack of pages/div (Work in Progress)
     UI/UX: Kinda Clean?
@@ -25,24 +25,27 @@
 <body>
 
     <Header>
-        <nav class="navbar">
+        <div class="container">
             <div class="logo">
                 <img src="Resources/logotop.png" alt="SCode Communtiy +" class="icon">
             </div>
-            <div class="links">
-                <ul class="bar">
-                    <!--instead of opening a new page this will now scroll down to a specific Div-->
+            <nav class="navbar">
+                <ul class="bar" id="menulist">
+                    <!-- instead of opening a new page this will now scroll down to a specific Div-->
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#prj">Projects</a></li>
                     <li><a href="#cplan">Community Plans</a></li>
                 </ul>
-            </div>
-            <div class="discordbtn">
                 <ul class="discord">
-                    <button><a href="https://discord.gg/jvHWWeKMWR">Join our Discord!</a></button>
+                    <button class="btn"><a href="https://discord.gg/jvHWWeKMWR">Join our Discord!</a></button>
+                </ul>
+            </nav>
+            <div class="navbtn">
+                <ul class="navselect">
+                    <img src="Resources/navbtn.png" alt="navigation button" class="navibtn" onclick="togglemenu()">
                 </ul>
             </div>
-        </nav>
+        </div>
     </Header>
     <div class="bg"></div>
     <div id="Home" class="hometop"></div>
@@ -51,7 +54,7 @@
             <img src="Resources/logo.png" alt="hatdog" class="banner">
         </div>
         <div class="arrdown">
-            <img src="Resources/arrow down.png" alt="downnn">
+            <img src="Resources/arrow down.png" alt="downnn" class="dwn">
         </div>
     </div>
     <div id="prj"></div>
@@ -80,6 +83,8 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script src="/Resources/scripts/navigation.js"></script>
     </script>
 </body>
 <!--End Of Website-->

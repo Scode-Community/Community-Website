@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;600&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    font-size: 20px;
     display: flex;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.493);
     justify-content: space-between;
@@ -58,13 +59,6 @@ body::-webkit-scrollbar-thumb {
     display: inline-block;
 }
 
-.links {
-    display: inline-block;
-    align-items: center;
-    left: 50%;
-    right: 50%;
-}
-
 .icon {
     width: 30px;
     height: 30px;
@@ -77,10 +71,12 @@ a {
 
 .bar {
     list-style: none;
+    position: relative;
+    left: 20%;
+    right: 50%;
 }
 
 .bar li,
-.discordbtn,
 button {
     display: inline-block;
     padding: 0px 20px;
@@ -93,8 +89,9 @@ button {
 button {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
+    font-size: 20px;
     width: fit-content;
-    height: 50px;
+    height: 60px;
     padding: 0 25px;
     background-color: #222539;
     border-radius: 5px;
@@ -169,6 +166,9 @@ button:hover {
     width: auto;
     height: 20%;
     margin-top: 20%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
 
 .hometop {
@@ -181,4 +181,23 @@ button:hover {
     max-height: 100%;
     height: fit-content;
     width: fit-content;
+}
+
+.PPTOS,
+.copyright {
+    padding: 0 2%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff3dc;
+}
+
+.copyright {
+    display: inline-block;
+}
+
+.PPTOS li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
 }

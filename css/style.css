@@ -84,7 +84,7 @@ a {
     position: relative;
     left: -25%;
     right: 25%;
-    padding: 15px 2%;
+    padding: 15px 0%;
 }
 
 .bar li,
@@ -223,11 +223,54 @@ button:hover {
         display: none;
     }
     .bar {
-        overflow: auto;
         background-color: #222539;
         width: 100%;
         position: absolute;
-        top: 90px;
+        top: 90PX;
+        left: 0;
+        z-index: 2;
+    }
+    .bar li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navibtn {
+        display: block;
+        width: 25px;
+    }
+    #menulist {
+        overflow: hidden;
+        transition: 0.3s;
+    }
+    /*Logo*/
+    .dwn {
+        width: 140px;
+    }
+    .banner {
+        width: 300px;
+    }
+    /*Footer*/
+    .bottomstuff {
+        width: auto;
+        height: 20%;
+        margin-top: 100%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    /*Navigation Bar*/
+    .btn {
+        display: none;
+    }
+    .bar {
+        background-color: #222539;
+        width: 100%;
+        position: absolute;
+        top: 90PX;
         left: 0;
         z-index: 2;
     }

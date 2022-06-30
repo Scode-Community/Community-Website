@@ -1,15 +1,6 @@
 # Community-Website
 Project 1 - The start of a new Chapter!
 
-### [Issues]
-| Navigation bar needs work
-
-| Navigation button needs alignment
-
-| Footer needs work
-
-I think there's more 
-
 ### Plan: 
 ### [FINISHED]
 

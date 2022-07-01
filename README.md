@@ -61,7 +61,7 @@ after that it will bring you to your account with the repository already forked.
 
 To Pull / contribute it will require you to make changes on your forked repository. now let's say you did make some changes and want to contribute, How do we do that?
 
-Fist make sure it says `this branch is 1 commit ahead of Scode-Community:main` depending on the ammount of files you modified this will increase the number.
+First make sure it says `this branch is 1 commit ahead of Scode-Community:main` depending on the amount of files you modified this will increase the number.
 
 ![image](https://user-images.githubusercontent.com/51787264/176846496-4daeb225-9176-4c55-ae8d-3973be89dbf7.png)
 

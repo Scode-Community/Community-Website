@@ -13,9 +13,9 @@ As of Talking to `jaseunda` this project will be included in his website `https:
 
 - Community Website Repository
 
-# How To download the Repository
+# How to download the Repository
 
-On our Github Repository You will see a Green Icon with Code as it's label Press that and you will see a Download zip at the popup.
+On our Github Repository you will see a green icon with `Code` as it's label press that and you will see a `Download zip` at the popup.
 
 ![image](https://user-images.githubusercontent.com/51787264/176839582-4c7da9c4-1a2b-400b-bed6-cf3e2a935bc2.png)
 
@@ -23,10 +23,10 @@ It should start downloading in `.zip` file extention.
 
 # Design and Plans
 
-### Plans
+### Plans:
 Will be updated
 
-### Design
+### Design:
 
 ![SCC Reference Design 2](https://user-images.githubusercontent.com/51787264/176848617-23c86af8-19f1-4fa9-ab9f-71873c92014b.png)
 ![SCC Reference Design - Pages](https://user-images.githubusercontent.com/51787264/176848633-32b5b4fb-624f-4f06-a6f0-60b0c84dfdc0.png)
@@ -37,7 +37,7 @@ Will be updated
 
 ### Part 1: Fork
 
-By now i'll guess you have the website already forked (Fork and download are completely different). You are now wondering how can i push this to the main repo?
+By now you are wondering how can i edit the Repo without breaking it?
 
 it's actually easy! To get started you will need to Fork the Repository. How do we do that? 
 

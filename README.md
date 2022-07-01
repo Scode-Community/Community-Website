@@ -1,4 +1,4 @@
-# Community-Website
+# SCode Community+ Website
 Project 1 - The start of a new Chapter!
 
 As of Talking to `jaseunda` this project will be included in his website `https://scodestudio.com/` now to get started you will need the following Tools

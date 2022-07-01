@@ -28,7 +28,21 @@ It should start downloading in `.zip` file extention.
 # Design and Plans
 
 ### Plans:
-Will be updated
+Create the following:
+
+- Project containers
+
+- Community Plan 
+
+- TOS (Terms of Use)
+
+- Privacy Policy
+
+- Contributors ( Yes, your Github will be posted in the community as an honor for people who helped make this website project)
+
+- Footer (acording to design :D)
+
+`- Will Update soon -`
 
 ### Design:
 

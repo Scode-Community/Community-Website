@@ -19,7 +19,7 @@ On our Github Repository You will see a Green Icon with Code as it's label Press
 
 ![image](https://user-images.githubusercontent.com/51787264/176839582-4c7da9c4-1a2b-400b-bed6-cf3e2a935bc2.png)
 
-It should start downloading in .zip file extention.
+It should start downloading in `.zip` file extention.
 
 # Design and Plans
 

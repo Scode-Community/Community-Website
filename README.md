@@ -73,7 +73,7 @@ After that it should bring you to a new page where it says `Comparing changes` a
 
 ![image](https://user-images.githubusercontent.com/51787264/176847185-5769f046-ba46-4b59-a2de-4ec3476af24d.png)
 
-Press Create Pull Request and it will open up a text editor where you can edit the title and describtion of the commit. (feel free to edit it) 
+Press Create Pull Request and it will open up a text editor where you can edit the title and description of the commit. (feel free to edit it) 
 
 ![image](https://user-images.githubusercontent.com/51787264/176847592-0dad0efc-7167-4059-b3b7-b96ecadc78cd.png)
 

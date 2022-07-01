@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;600&display=swap');
 
-
 /* Root allow us to manipulate styles from one global variable. 
 Simplified customization of themes for dynamic fonts and colors. */
-:root{
+
+:root {
     /* Color Theme */
     --color1: #36374e;
     --color2: #313247;
     --color3: #222539;
     --footerText: #fff3dc;
-
     /* Font Group */
     --primaryFont: 'Raleway', sans-serif;
 }
@@ -67,6 +66,10 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     padding: 10px 2%;
     z-index: 999;
+}
+
+a {
+    cursor: pointer;
 }
 
 .navbar {

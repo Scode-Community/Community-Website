@@ -7,7 +7,11 @@ As of Talking to `jaseunda` this project will be included in his website `https:
 
 - Visual Studio Code (or bootstrap if you want)
 
+Link:: https://code.visualstudio.com/Download
+
 - Live Server (If you are using Visual Studio Code)
+
+Link:: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 ### Of course let's not forget:
 

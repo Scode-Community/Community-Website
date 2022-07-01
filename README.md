@@ -3,17 +3,17 @@ Project 1 - The start of a new Chapter!
 
 As of Talking to `jaseunda` this project will be included in his website `https://scodestudio.com/` now to get started you will need the following Tools
 
-### Tools
+### Tools:
 
 - Visual Studio Code (or bootstrap if you want)
 
 - Live Server (If you are using Visual Studio Code)
 
-of course let's not forget:
+### Of course let's not forget:
 
 - Community Website Repository
 
-### How To download the Repository
+# How To download the Repository
 
 On our Github Repository You will see a Green Icon with Code as it's label Press that and you will see a Download zip at the popup.
 
